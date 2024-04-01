@@ -1,0 +1,117 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button Clicked</title>
+  <button type="button" onClick="alert('Welcome to JS Class')">Clickme>
+    <script>
+      function speak() {
+        alert("Hello Everyone");
+      }
+
+
+    </script>
+</head>
+
+<body>
+  <button type="button" onclick="speak()">Click Me</button>
+</body>
+
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Area Of a Rectangle</title>
+<style>
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 50px;
+background-color:bisque;
+}
+label {
+font-size: 20px;
+margin-bottom: 10px;
+}
+input[type="text"] {
+font-size: 18px;
+padding: 5px;
+border-radius: 5px;
+border: 1px solid #ccc;
+margin-bottom: 20px;
+}
+button {
+font-size: 20px;
+padding: 10px 20px;
+border-radius: 5px;
+background-color:orange;
+color: white;
+border: none;
+cursor: pointer;
+}
+</style>
+</head>
+<body>
+<form>
+<label for="length">Length:</label>
+<input type="text" id="length">
+<label for="width">Width:</label>
+<input type="text" id="width">
+<button onclick="area()">Calculate Area</button>
+</form>
+
+<script>
+function area() {
+let length = parseFloat(document.getElementById("length").value);
+let width = parseFloat(document.getElementById("width").value);
+let area = length * width;
+alert("The area of the rectangle is: " + area);
+}
+</script>
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function area(){
+
+
+  const lengthInput =parseFloat (document.getElementById("length").value);
+  const widthInput =parseFloat (document.getElementById("width").value);
+
+  
+  const area = length * width;
+
+  alert("The area of the rectangle is: " + area);
+    }
+  </script>
+
+  <form>
+    <label for="length">Length:</label>
+    <input type="text" id="length"  />
+    <br />
+    <label for="width">Width:</label>
+    <input type="text" id="width"  />
+    <br />
+    <button onclick="araea()">Calculate Area</button>
+  </form>
+  
+</body>
+</html> -->
