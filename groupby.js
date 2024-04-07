@@ -8,5 +8,5 @@ const teams = [
 ];
 
 for (let i = 0; i < teams.length; i++) {
-  console.log(teams[i].name);
+  console.log(teams[i].city);
 }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>click1</title>
+  <style>
+    div{
+    background-color:aqua
+    }
+    h1{
+      color: blueviolet;
+    }
+    p{
+      font-size: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="my div">
+    <h1 id="h1">welcome to my website</h1>
+    <p id="p">I will be talking about myself</p>
+ </div>
+
+ <button onclick="changebackground()">change div color</button>
+ <button onclick="changecolor()">Change h1 color</button>
+ <button onclick="changefontsize()">change p size</button>
+ <script>
+  function changebackground(){
+    let testDiv= document.getElementById("my div")
+    testDiv.style.backgroundColor= "black"
+  }
+
+function changecolor(){
+  let testHeading= document.getElementById("h1")
+  testHeading.style.color="white"
+}
+
+function changefontsize(){
+  let testParagraph=document.getElementById("p")
+  testParagraph.style.fontSize="40px"
+}
+ </script>
+  
+</body>
+</html>

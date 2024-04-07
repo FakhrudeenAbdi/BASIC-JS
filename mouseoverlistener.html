@@ -1,0 +1,41 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="my div">
+Hoover over me
+  </div>
+
+  <script>
+    document.getElementById("my div").addEventListener("mouseover", function())
+  </script>
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="my-div">
+    Hover over me
+  </div>
+
+  <script>
+    document.getElementById("my-div").addEventListener("mouseover", function() {
+      alert("Mouse over event triggered");
+      this.style.backgroundColor ="purple"
+    });
+  </script>
+</body>
+</html>
